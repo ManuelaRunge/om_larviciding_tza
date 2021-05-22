@@ -1,0 +1,289 @@
+month,EIR,Duration_mth,SeasonID,SeasonID_label,deploy_mth,EffectSeason,LARVcov,red_PR,deploy_mth_adj,WetSeason,movingCoverage
+1,10,4,2-2,"High seasonality,
+two transmission seasons",1,Most effective,40,19.8171484577739,-3,-5,40
+1,3,4,2-2,"High seasonality,
+two transmission seasons",1,Most effective,40,24.9256759369026,-3,-5,40
+1,90,4,2-2,"High seasonality,
+two transmission seasons",1,Most effective,40,5.96351710993411,-3,-5,40
+1,10,4,1-1,"Medium seasonality,
+one transmission season",1,Most effective,40,17.8021293229728,-3,-5,40
+1,3,4,1-1,"Medium seasonality,
+one transmission season",1,Most effective,40,32.6166955355705,-3,-5,40
+1,90,4,1-1,"Medium seasonality,
+one transmission season",1,Most effective,40,4.16634250769989,-3,-5,40
+1,10,4,1-2,"Medium seasonality,
+two transmission seasons",1,Most effective,40,15.2853350820082,-3,-5,40
+1,3,4,1-2,"Medium seasonality,
+two transmission seasons",1,Most effective,40,26.4524403409698,-3,-5,40
+1,90,4,1-2,"Medium seasonality,
+two transmission seasons",1,Most effective,40,4.23764042028305,-3,-5,40
+1,10,4,2-1,"High seasonality,
+one transmission season",1,Most effective,40,22.0353392805399,-3,-5,40
+1,3,4,2-1,"High seasonality,
+one transmission season",1,Most effective,40,39.551855238605,-3,-5,40
+1,90,4,2-1,"High seasonality,
+one transmission season",1,Most effective,40,3.99655347805798,-3,-5,40
+2,10,4,2-2,"High seasonality,
+two transmission seasons",2,Most effective,40,14.7353690423322,-2,-5,40
+2,3,4,2-2,"High seasonality,
+two transmission seasons",2,Most effective,40,32.7442163982597,-2,-5,40
+2,90,4,2-2,"High seasonality,
+two transmission seasons",2,Most effective,40,2.19648329613856,-2,-5,40
+2,10,4,1-1,"Medium seasonality,
+one transmission season",2,Most effective,40,14.4700453777851,-2,-5,40
+2,3,4,1-1,"Medium seasonality,
+one transmission season",2,Most effective,40,24.1967554341024,-2,-5,40
+2,90,4,1-1,"Medium seasonality,
+one transmission season",2,Most effective,40,2.43941535827082,-2,-5,40
+2,10,4,1-2,"Medium seasonality,
+two transmission seasons",2,Most effective,40,12.802555430047,-2,-5,40
+2,3,4,1-2,"Medium seasonality,
+two transmission seasons",2,Most effective,40,22.5510234597378,-2,-5,40
+2,90,4,1-2,"Medium seasonality,
+two transmission seasons",2,Most effective,40,0.994805127253765,-2,-5,40
+2,10,4,2-1,"High seasonality,
+one transmission season",2,Most effective,40,16.8505414384194,-2,-5,40
+2,3,4,2-1,"High seasonality,
+one transmission season",2,Most effective,40,36.6479082339925,-2,-5,40
+2,90,4,2-1,"High seasonality,
+one transmission season",2,Most effective,40,1.82785319133005,-2,-5,40
+3,10,4,2-2,"High seasonality,
+two transmission seasons",3,Most effective,40,10.1386186310708,-1,-5,40
+3,3,4,2-2,"High seasonality,
+two transmission seasons",3,Most effective,40,26.1126257150935,-1,-5,40
+3,90,4,2-2,"High seasonality,
+two transmission seasons",3,Most effective,40,1.09982855993365,-1,-5,40
+3,10,4,1-1,"Medium seasonality,
+one transmission season",3,Most effective,40,11.585737947907,-1,-5,40
+3,3,4,1-1,"Medium seasonality,
+one transmission season",3,Most effective,40,19.5108100935533,-1,-5,40
+3,90,4,1-1,"Medium seasonality,
+one transmission season",3,Most effective,40,2.24434841692541,-1,-5,40
+3,10,4,1-2,"Medium seasonality,
+two transmission seasons",3,Most effective,40,10.1349090659796,-1,-5,40
+3,3,4,1-2,"Medium seasonality,
+two transmission seasons",3,Most effective,40,17.7405174631216,-1,-5,40
+3,90,4,1-2,"Medium seasonality,
+two transmission seasons",3,Most effective,40,1.62746320432278,-1,-5,40
+3,10,4,2-1,"High seasonality,
+one transmission season",3,Most effective,40,10.1769171999613,-1,-5,40
+3,3,4,2-1,"High seasonality,
+one transmission season",3,Most effective,40,26.9820631530051,-1,-5,40
+3,90,4,2-1,"High seasonality,
+one transmission season",3,Most effective,40,2.38309057916067,-1,-5,40
+4,10,4,2-2,"High seasonality,
+two transmission seasons",4,Least effective,40,2.59423319937319,0,-5,40
+4,3,4,2-2,"High seasonality,
+two transmission seasons",4,Least effective,40,15.0017331891983,0,-5,40
+4,90,4,2-2,"High seasonality,
+two transmission seasons",4,Least effective,40,0.307423540679085,0,-5,40
+4,10,4,1-1,"Medium seasonality,
+one transmission season",4,Least effective,40,8.79112293599382,0,-5,40
+4,3,4,1-1,"Medium seasonality,
+one transmission season",4,Least effective,40,15.0637310819423,0,-5,40
+4,90,4,1-1,"Medium seasonality,
+one transmission season",4,Least effective,40,1.22532257304461,0,-5,40
+4,10,4,1-2,"Medium seasonality,
+two transmission seasons",4,Least effective,40,4.18452413201605,0,-5,40
+4,3,4,1-2,"Medium seasonality,
+two transmission seasons",4,Least effective,40,9.22692970054775,0,-5,40
+4,90,4,1-2,"Medium seasonality,
+two transmission seasons",4,Least effective,40,2.06528552955349,0,-5,40
+4,10,4,2-1,"High seasonality,
+one transmission season",4,Least effective,40,5.04398617171044,0,-5,40
+4,3,4,2-1,"High seasonality,
+one transmission season",4,Least effective,40,11.0333215270453,0,-5,40
+4,90,4,2-1,"High seasonality,
+one transmission season",4,Least effective,40,1.99908102639998,0,-5,40
+5,10,4,2-2,"High seasonality,
+two transmission seasons",5,Least effective,40,2.82232653577686,1,-5,40
+5,3,4,2-2,"High seasonality,
+two transmission seasons",5,Least effective,40,-4.3586869912557,1,-5,40
+5,90,4,2-2,"High seasonality,
+two transmission seasons",5,Least effective,40,0.698695200942571,1,-5,40
+5,10,4,1-1,"Medium seasonality,
+one transmission season",5,Least effective,40,5.653994130055,1,-5,40
+5,3,4,1-1,"Medium seasonality,
+one transmission season",5,Least effective,40,10.8599645840333,1,-5,40
+5,90,4,1-1,"Medium seasonality,
+one transmission season",5,Least effective,40,1.29771051383648,1,-5,40
+5,10,4,1-2,"Medium seasonality,
+two transmission seasons",5,Least effective,40,3.51123561330584,1,-5,40
+5,3,4,1-2,"Medium seasonality,
+two transmission seasons",5,Least effective,40,8.91219044685634,1,-5,40
+5,90,4,1-2,"Medium seasonality,
+two transmission seasons",5,Least effective,40,2.48588314766189,1,-5,40
+5,10,4,2-1,"High seasonality,
+one transmission season",5,Least effective,40,2.3310824492327,1,-5,40
+5,3,4,2-1,"High seasonality,
+one transmission season",5,Least effective,40,5.8075446660166,1,-5,40
+5,90,4,2-1,"High seasonality,
+one transmission season",5,Least effective,40,0.907758054844238,1,-5,40
+6,10,4,2-2,"High seasonality,
+two transmission seasons",6,Least effective,60,4.66224113816974,2,,60
+6,3,4,2-2,"High seasonality,
+two transmission seasons",6,Least effective,60,4.9921345177535,2,,60
+6,90,4,2-2,"High seasonality,
+two transmission seasons",6,Least effective,60,1.93154389393334,2,,60
+6,10,4,1-1,"Medium seasonality,
+one transmission season",6,Least effective,60,5.56700268952131,2,,60
+6,3,4,1-1,"Medium seasonality,
+one transmission season",6,Least effective,60,11.9940203536654,2,,60
+6,90,4,1-1,"Medium seasonality,
+one transmission season",6,Least effective,60,3.02446734125598,2,,60
+6,10,4,1-2,"Medium seasonality,
+two transmission seasons",6,Least effective,60,8.15633339577453,2,,60
+6,3,4,1-2,"Medium seasonality,
+two transmission seasons",6,Least effective,60,14.2927788796334,2,,60
+6,90,4,1-2,"Medium seasonality,
+two transmission seasons",6,Least effective,60,6.49052332120243,2,,60
+6,10,4,2-1,"High seasonality,
+one transmission season",6,Least effective,60,0.672227296078332,2,,60
+6,3,4,2-1,"High seasonality,
+one transmission season",6,Least effective,60,14.8140408725126,2,,60
+6,90,4,2-1,"High seasonality,
+one transmission season",6,Least effective,60,1.13596082880733,2,,60
+7,10,4,2-2,"High seasonality,
+two transmission seasons",7,Least effective,80,5.54007458628218,3,,80
+7,3,4,2-2,"High seasonality,
+two transmission seasons",7,Least effective,80,11.5059015527084,3,,80
+7,90,4,2-2,"High seasonality,
+two transmission seasons",7,Least effective,80,3.33896574554885,3,,80
+7,10,4,1-1,"Medium seasonality,
+one transmission season",7,Least effective,80,7.25109686693075,3,,80
+7,3,4,1-1,"Medium seasonality,
+one transmission season",7,Least effective,80,6.71423667919142,3,,80
+7,90,4,1-1,"Medium seasonality,
+one transmission season",7,Least effective,80,4.15068711370513,3,,80
+7,10,4,1-2,"Medium seasonality,
+two transmission seasons",7,Least effective,80,15.6727862787358,3,,80
+7,3,4,1-2,"Medium seasonality,
+two transmission seasons",7,Least effective,80,25.6490494308665,3,,80
+7,90,4,1-2,"Medium seasonality,
+two transmission seasons",7,Least effective,80,13.0271361460122,3,,80
+7,10,4,2-1,"High seasonality,
+one transmission season",7,Least effective,80,-2.43841806423808,3,,80
+7,3,4,2-1,"High seasonality,
+one transmission season",7,Least effective,80,0.144116661844688,3,,80
+7,90,4,2-1,"High seasonality,
+one transmission season",7,Least effective,80,1.65497185999527,3,,80
+8,10,4,2-2,"High seasonality,
+two transmission seasons",8,Least effective,80,10.6095536924912,4,,80
+8,3,4,2-2,"High seasonality,
+two transmission seasons",8,Least effective,80,14.3162375976673,4,,80
+8,90,4,2-2,"High seasonality,
+two transmission seasons",8,Least effective,80,6.52679678231861,4,,80
+8,10,4,1-1,"Medium seasonality,
+one transmission season",8,Least effective,80,4.90370138190837,4,,80
+8,3,4,1-1,"Medium seasonality,
+one transmission season",8,Least effective,80,8.95841929269818,4,,80
+8,90,4,1-1,"Medium seasonality,
+one transmission season",8,Least effective,80,4.95041483019202,4,,80
+8,10,4,1-2,"Medium seasonality,
+two transmission seasons",8,Least effective,80,19.9378875348335,4,,80
+8,3,4,1-2,"Medium seasonality,
+two transmission seasons",8,Least effective,80,30.89900462842,4,,80
+8,90,4,1-2,"Medium seasonality,
+two transmission seasons",8,Least effective,80,11.8899671916949,4,,80
+8,10,4,2-1,"High seasonality,
+one transmission season",8,Least effective,80,2.10111003557282,4,,80
+8,3,4,2-1,"High seasonality,
+one transmission season",8,Least effective,80,0.367544530972121,4,,80
+8,90,4,2-1,"High seasonality,
+one transmission season",8,Least effective,80,0.520814256790789,4,,80
+9,10,4,2-2,"High seasonality,
+two transmission seasons",9,Least effective,80,1.02163020747893,5,,80
+9,3,4,2-2,"High seasonality,
+two transmission seasons",9,Least effective,80,4.12412781307472,5,,80
+9,90,4,2-2,"High seasonality,
+two transmission seasons",9,Least effective,80,3.93165049905209,5,,80
+9,10,4,1-1,"Medium seasonality,
+one transmission season",9,Least effective,80,11.3033132329189,5,,80
+9,3,4,1-1,"Medium seasonality,
+one transmission season",9,Least effective,80,11.4714895837819,5,,80
+9,90,4,1-1,"Medium seasonality,
+one transmission season",9,Least effective,80,7.60105579160853,5,,80
+9,10,4,1-2,"Medium seasonality,
+two transmission seasons",9,Least effective,80,15.2274478606152,5,,80
+9,3,4,1-2,"Medium seasonality,
+two transmission seasons",9,Least effective,80,19.7055937612183,5,,80
+9,90,4,1-2,"Medium seasonality,
+two transmission seasons",9,Least effective,80,11.0839749616342,5,,80
+9,10,4,2-1,"High seasonality,
+one transmission season",9,Least effective,80,3.12513385720564,5,,80
+9,3,4,2-1,"High seasonality,
+one transmission season",9,Least effective,80,-10.7224620971777,5,,80
+9,90,4,2-1,"High seasonality,
+one transmission season",9,Least effective,80,0.142532642761713,5,,80
+10,10,4,2-2,"High seasonality,
+two transmission seasons",10,Least effective,80,1.17727909546097,-6,,80
+10,3,4,2-2,"High seasonality,
+two transmission seasons",10,Least effective,80,0.637823486249943,-6,,80
+10,90,4,2-2,"High seasonality,
+two transmission seasons",10,Least effective,80,1.63492442469174,-6,,80
+10,10,4,1-1,"Medium seasonality,
+one transmission season",10,Least effective,80,22.0262992760028,-6,,80
+10,3,4,1-1,"Medium seasonality,
+one transmission season",10,Least effective,80,23.8898477947724,-6,,80
+10,90,4,1-1,"Medium seasonality,
+one transmission season",10,Least effective,80,16.3897160478045,-6,,80
+10,10,4,1-2,"Medium seasonality,
+two transmission seasons",10,Least effective,80,12.6321239689806,-6,,80
+10,3,4,1-2,"Medium seasonality,
+two transmission seasons",10,Least effective,80,17.092666810597,-6,,80
+10,90,4,1-2,"Medium seasonality,
+two transmission seasons",10,Least effective,80,9.25484930369363,-6,,80
+10,10,4,2-1,"High seasonality,
+one transmission season",10,Least effective,80,6.59570515419851,-6,,80
+10,3,4,2-1,"High seasonality,
+one transmission season",10,Least effective,80,21.1466343147526,-6,,80
+10,90,4,2-1,"High seasonality,
+one transmission season",10,Least effective,80,6.33021267983226,-6,,80
+11,10,4,2-2,"High seasonality,
+two transmission seasons",11,Most effective,80,15.432642579659,-5,,80
+11,3,4,2-2,"High seasonality,
+two transmission seasons",11,Most effective,80,22.3432780424797,-5,,80
+11,90,4,2-2,"High seasonality,
+two transmission seasons",11,Most effective,80,16.4641043927207,-5,,80
+11,10,4,1-1,"Medium seasonality,
+one transmission season",11,Most effective,80,33.1132426756727,-5,,80
+11,3,4,1-1,"Medium seasonality,
+one transmission season",11,Most effective,80,47.8716786966693,-5,,80
+11,90,4,1-1,"Medium seasonality,
+one transmission season",11,Most effective,80,23.2164090016815,-5,,80
+11,10,4,1-2,"Medium seasonality,
+two transmission seasons",11,Most effective,80,21.3486504534936,-5,,80
+11,3,4,1-2,"Medium seasonality,
+two transmission seasons",11,Most effective,80,26.8214255674929,-5,,80
+11,90,4,1-2,"Medium seasonality,
+two transmission seasons",11,Most effective,80,14.5302205987074,-5,,80
+11,10,4,2-1,"High seasonality,
+one transmission season",11,Most effective,80,30.9564775872244,-5,,80
+11,3,4,2-1,"High seasonality,
+one transmission season",11,Most effective,80,32.7625570776256,-5,,80
+11,90,4,2-1,"High seasonality,
+one transmission season",11,Most effective,80,23.9472305608252,-5,,80
+12,10,4,2-2,"High seasonality,
+two transmission seasons",12,Most effective,60,32.8493309343288,-4,,60
+12,3,4,2-2,"High seasonality,
+two transmission seasons",12,Most effective,60,37.4305183084731,-4,,60
+12,90,4,2-2,"High seasonality,
+two transmission seasons",12,Most effective,60,20.4843096503219,-4,,60
+12,10,4,1-1,"Medium seasonality,
+one transmission season",12,Most effective,60,30.6908533702334,-4,,60
+12,3,4,1-1,"Medium seasonality,
+one transmission season",12,Most effective,60,37.1736712590333,-4,,60
+12,90,4,1-1,"Medium seasonality,
+one transmission season",12,Most effective,60,14.6469325401813,-4,,60
+12,10,4,1-2,"Medium seasonality,
+two transmission seasons",12,Most effective,60,26.0605685337728,-4,,60
+12,3,4,1-2,"Medium seasonality,
+two transmission seasons",12,Most effective,60,32.6707702588977,-4,,60
+12,90,4,1-2,"Medium seasonality,
+two transmission seasons",12,Most effective,60,11.4373879220555,-4,,60
+12,10,4,2-1,"High seasonality,
+one transmission season",12,Most effective,60,35.2160719933184,-4,,60
+12,3,4,2-1,"High seasonality,
+one transmission season",12,Most effective,60,44.0286779230327,-4,,60
+12,90,4,2-1,"High seasonality,
+one transmission season",12,Most effective,60,19.4951521209063,-4,,60

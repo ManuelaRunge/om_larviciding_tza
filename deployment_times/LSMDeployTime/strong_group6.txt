@@ -1,0 +1,12 @@
+<value>0</value>
+ <value>0</value>
+ <value>0.04</value>
+ <value>0.07</value>
+ <value>0.18</value>
+ <value>0.22</value>
+ <value>0.09</value>
+ <value>0.02</value>
+ <value>0</value>
+ <value>0</value>
+ <value>0</value>
+ <value>0</value>
