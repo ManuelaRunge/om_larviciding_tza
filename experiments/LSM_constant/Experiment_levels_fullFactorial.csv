@@ -1,0 +1,12 @@
+levels;models;EIR;LSMDeployTime;LARVcov;Seasonality_grp;Decay2;developmentDuration;developmentSurvival;femaleEggsLaidByOviposit;Seeds
+level 1;base;3;timedat12_12timesteps;0;constant;decay_5dayStep;11;0.6;99;3
+level 2;;10;timedat12_1timesteps;0.1;;40percAt10days_0percAt20days;5;0.1;50;
+level 3;;90;timedat12_2timesteps;0.2;;;;0.9;200;
+level 4;;;timedat12_3timesteps;0.3;;;;;;
+level 5;;;timedat12_4timesteps;0.4;;;;;;
+level 6;;;timedat12_5timesteps;0.5;;;;;;
+level 7;;;timedat12_6timesteps;0.6;;;;;;
+level 8;;;timedat12_firsttimesteps;0.7;;;;;;
+level 9;;;;0.8;;;;;;
+level 10;;;;0.9;;;;;;
+level 11;;;;1;;;;;;

@@ -1,0 +1,859 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<om:scenario xmlns:om="http://openmalaria.org/schema/scenario_38" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="base" schemaVersion="38" xsi:schemaLocation="http://openmalaria.org/schema/scenario_38 scenario_38.xsd">
+  <demography maximumAgeYrs="90" name="Ifakara" popSize="10000">
+    <!-- change to 10000 for simulation or 100 for tests -->
+    <ageGroup lowerbound="0">
+      <group poppercent="3.474714994" upperbound="1"/>
+      <group poppercent="12.76004028" upperbound="5"/>
+      <group poppercent="14.52151394" upperbound="10"/>
+      <group poppercent="12.75565434" upperbound="15"/>
+      <group poppercent="10.836323739999999" upperbound="20"/>
+      <group poppercent="8.393312454" upperbound="25"/>
+      <group poppercent="7.001421452" upperbound="30"/>
+      <group poppercent="5.800587654" upperbound="35"/>
+      <group poppercent="5.102136612" upperbound="40"/>
+      <group poppercent="4.182561874" upperbound="45"/>
+      <group poppercent="3.339409351" upperbound="50"/>
+      <group poppercent="2.986112356" upperbound="55"/>
+      <group poppercent="2.555766582" upperbound="60"/>
+      <group poppercent="2.332763433" upperbound="65"/>
+      <group poppercent="1.77400255" upperbound="70"/>
+      <group poppercent="1.008525491" upperbound="75"/>
+      <group poppercent="0.74167341" upperbound="80"/>
+      <group poppercent="0.271863401" upperbound="85"/>
+      <group poppercent="0.161614642" upperbound="90"/>
+    </ageGroup>
+  </demography>
+	<monitoring name="Daily">
+		<continuous period="1">
+			<option name="input EIR" value="true"/>
+			<option name="simulated EIR" value="true"/>
+			<option name="immunity h" value="false"/>
+			<option name="N_v0" value="true"/>
+			<option name="N_v" value="true"/>
+			<option name="O_v" value="true"/>
+			<option name="S_v" value="true"/>
+			<option name="alpha" value="true"/>
+			<option name="resource availability" value="true"/>	  
+			<option name="new infections" value="true"/>
+			<option name="patent hosts" value="true"/>
+			<option name="hosts" value="true"/>
+			<!-- <option name="ITN coverage" value="true"/>-->
+			<!-- <option name="GVI coverage" value="true"/>-->
+		</continuous>
+    <SurveyOptions>
+		<option name="nHost" value="true"/>
+		<option name="nPatent" value="true"/>
+		<option name="totalPatentInf" value="true"/>
+		<option name="totalInfs" value="true"/>
+		<option name="sumlogDens" value="true"/>
+		<option name="nTransmit" value="true"/>
+		<option name="nTreatments1" value="false"/>
+		<option name="nTreatments2" value="false"/>
+		<option name="nTreatments3" value="false"/>
+		<option name="nUncomp" value="true"/>
+		<option name="nSevere" value="true"/>
+		<option name="nDirDeaths" value="true"/>
+		<option name="nEPIVaccinations" value="false"/>
+		<option name="nMassVaccinations" value="false"/>
+		<option name="annAvgK" value="false"/>
+		<option name="Vector_Nv0" value="true"/>
+		<option name="Vector_Nv" value="true"/>
+		<option name="Vector_Ov" value="true"/>
+		<option name="Vector_Sv" value="true"/>
+		<option name="nMassITNs" value="false"/>
+		<option name="nMassIRS" value="false"/>
+		<option name="inputEIR" value="true"/>
+		<option name="simulatedEIR" value="true"/>
+		<option name="allCauseIMR"/>
+		<option name="nMDAs" value="true"/>
+		<option name="nCtsMDA" value="true"/>
+		<option name="nMassGVI" value="true"/>
+    </SurveyOptions>
+    <surveys detectionLimit="200">
+	    <!--surveyTime>1</surveyTime--> <!--Simulation Start 1900-01-01-->
+		<!--Simulation Start 1900-01-01-->
+		<surveyTime>7305</surveyTime> <!-- 1999-12-30  - to be discarded --> 
+		<surveyTime>7306</surveyTime> <!-- 2000-01-01 --> 
+		<surveyTime>7307</surveyTime> <!-- 2000-01-05 --> 
+		<surveyTime>7308</surveyTime> <!-- 2000-01-10 --> 
+		<surveyTime>7309</surveyTime> <!-- 2000-01-15 --> 
+		<surveyTime>7310</surveyTime> <!-- 2000-01-20 --> 
+		<surveyTime>7311</surveyTime> <!-- 2000-01-25 --> 
+		<surveyTime>7312</surveyTime> <!-- 2000-01-30 --> 
+		<surveyTime>7313</surveyTime> <!-- 2000-02-04 --> 
+		<surveyTime>7314</surveyTime> <!-- 2000-02-09 --> 
+		<surveyTime>7315</surveyTime> <!-- 2000-02-14 --> 
+		<surveyTime>7316</surveyTime> <!-- 2000-02-19 --> 
+		<surveyTime>7317</surveyTime> <!-- 2000-02-24 --> 
+		<surveyTime>7318</surveyTime> <!-- 2000-02-29 --> 
+		<surveyTime>7319</surveyTime> <!-- 2000-03-05 --> 
+		<surveyTime>7320</surveyTime> <!-- 2000-03-10 --> 
+		<surveyTime>7321</surveyTime> <!-- 2000-03-15 --> 
+		<surveyTime>7322</surveyTime> <!-- 2000-03-20 --> 
+		<surveyTime>7323</surveyTime> <!-- 2000-03-25 --> 
+		<surveyTime>7324</surveyTime> <!-- 2000-03-30 --> 
+		<surveyTime>7325</surveyTime> <!-- 2000-04-04 --> 
+		<surveyTime>7326</surveyTime> <!-- 2000-04-09 --> 
+		<surveyTime>7327</surveyTime> <!-- 2000-04-14 --> 
+		<surveyTime>7328</surveyTime> <!-- 2000-04-19 --> 
+		<surveyTime>7329</surveyTime> <!-- 2000-04-24 --> 
+		<surveyTime>7330</surveyTime> <!-- 2000-04-29 --> 
+		<surveyTime>7331</surveyTime> <!-- 2000-05-04 --> 
+		<surveyTime>7332</surveyTime> <!-- 2000-05-09 --> 
+		<surveyTime>7333</surveyTime> <!-- 2000-05-14 --> 
+		<surveyTime>7334</surveyTime> <!-- 2000-05-19 --> 
+		<surveyTime>7335</surveyTime> <!-- 2000-05-24 --> 
+		<surveyTime>7336</surveyTime> <!-- 2000-05-29 --> 
+		<surveyTime>7337</surveyTime> <!-- 2000-06-03 --> 
+		<surveyTime>7338</surveyTime> <!-- 2000-06-08 --> 
+		<surveyTime>7339</surveyTime> <!-- 2000-06-13 --> 
+		<surveyTime>7340</surveyTime> <!-- 2000-06-18 --> 
+		<surveyTime>7341</surveyTime> <!-- 2000-06-23 --> 
+		<surveyTime>7342</surveyTime> <!-- 2000-06-28 --> 
+		<surveyTime>7343</surveyTime> <!-- 2000-07-03 --> 
+		<surveyTime>7344</surveyTime> <!-- 2000-07-08 --> 
+		<surveyTime>7345</surveyTime> <!-- 2000-07-13 --> 
+		<surveyTime>7346</surveyTime> <!-- 2000-07-18 --> 
+		<surveyTime>7347</surveyTime> <!-- 2000-07-23 --> 
+		<surveyTime>7348</surveyTime> <!-- 2000-07-28 --> 
+		<surveyTime>7349</surveyTime> <!-- 2000-08-02 --> 
+		<surveyTime>7350</surveyTime> <!-- 2000-08-07 --> 
+		<surveyTime>7351</surveyTime> <!-- 2000-08-12 --> 
+		<surveyTime>7352</surveyTime> <!-- 2000-08-17 --> 
+		<surveyTime>7353</surveyTime> <!-- 2000-08-22 --> 
+		<surveyTime>7354</surveyTime> <!-- 2000-08-27 --> 
+		<surveyTime>7355</surveyTime> <!-- 2000-09-01 --> 
+		<surveyTime>7356</surveyTime> <!-- 2000-09-06 --> 
+		<surveyTime>7357</surveyTime> <!-- 2000-09-11 --> 
+		<surveyTime>7358</surveyTime> <!-- 2000-09-16 --> 
+		<surveyTime>7359</surveyTime> <!-- 2000-09-21 --> 
+		<surveyTime>7360</surveyTime> <!-- 2000-09-26 --> 
+		<surveyTime>7361</surveyTime> <!-- 2000-10-01 --> 
+		<surveyTime>7362</surveyTime> <!-- 2000-10-06 --> 
+		<surveyTime>7363</surveyTime> <!-- 2000-10-11 --> 
+		<surveyTime>7364</surveyTime> <!-- 2000-10-16 --> 
+		<surveyTime>7365</surveyTime> <!-- 2000-10-21 --> 
+		<surveyTime>7366</surveyTime> <!-- 2000-10-26 --> 
+		<surveyTime>7367</surveyTime> <!-- 2000-10-31 --> 
+		<surveyTime>7368</surveyTime> <!-- 2000-11-05 --> 
+		<surveyTime>7369</surveyTime> <!-- 2000-11-10 --> 
+		<surveyTime>7370</surveyTime> <!-- 2000-11-15 --> 
+		<surveyTime>7371</surveyTime> <!-- 2000-11-20 --> 
+		<surveyTime>7372</surveyTime> <!-- 2000-11-25 --> 
+		<surveyTime>7373</surveyTime> <!-- 2000-11-30 --> 
+		<surveyTime>7374</surveyTime> <!-- 2000-12-05 --> 
+		<surveyTime>7375</surveyTime> <!-- 2000-12-10 --> 
+		<surveyTime>7376</surveyTime> <!-- 2000-12-15 --> 
+		<surveyTime>7377</surveyTime> <!-- 2000-12-20 --> 
+		<surveyTime>7378</surveyTime> <!-- 2000-12-25 --> 
+		<surveyTime>7379</surveyTime> <!-- 2000-12-30 --> 
+		<surveyTime>7380</surveyTime> <!-- 2001-01-04 --> 
+		<surveyTime>7381</surveyTime> <!-- 2001-01-09 --> 
+		<surveyTime>7382</surveyTime> <!-- 2001-01-14 --> 
+		<surveyTime>7383</surveyTime> <!-- 2001-01-19 --> 
+		<surveyTime>7384</surveyTime> <!-- 2001-01-24 --> 
+		<surveyTime>7385</surveyTime> <!-- 2001-01-29 --> 
+		<surveyTime>7386</surveyTime> <!-- 2001-02-03 --> 
+		<surveyTime>7387</surveyTime> <!-- 2001-02-08 --> 
+		<surveyTime>7388</surveyTime> <!-- 2001-02-13 --> 
+		<surveyTime>7389</surveyTime> <!-- 2001-02-18 --> 
+		<surveyTime>7390</surveyTime> <!-- 2001-02-23 --> 
+		<surveyTime>7391</surveyTime> <!-- 2001-02-28 --> 
+		<surveyTime>7392</surveyTime> <!-- 2001-03-05 --> 
+		<surveyTime>7393</surveyTime> <!-- 2001-03-10 --> 
+		<surveyTime>7394</surveyTime> <!-- 2001-03-15 --> 
+		<surveyTime>7395</surveyTime> <!-- 2001-03-20 --> 
+		<surveyTime>7396</surveyTime> <!-- 2001-03-25 --> 
+		<surveyTime>7397</surveyTime> <!-- 2001-03-30 --> 
+		<surveyTime>7398</surveyTime> <!-- 2001-04-04 --> 
+		<surveyTime>7399</surveyTime> <!-- 2001-04-09 --> 
+		<surveyTime>7400</surveyTime> <!-- 2001-04-14 --> 
+		<surveyTime>7401</surveyTime> <!-- 2001-04-19 --> 
+		<surveyTime>7402</surveyTime> <!-- 2001-04-24 --> 
+		<surveyTime>7403</surveyTime> <!-- 2001-04-29 --> 
+		<surveyTime>7404</surveyTime> <!-- 2001-05-04 --> 
+		<surveyTime>7405</surveyTime> <!-- 2001-05-09 --> 
+		<surveyTime>7406</surveyTime> <!-- 2001-05-14 --> 
+		<surveyTime>7407</surveyTime> <!-- 2001-05-19 --> 
+		<surveyTime>7408</surveyTime> <!-- 2001-05-24 --> 
+		<surveyTime>7409</surveyTime> <!-- 2001-05-29 --> 
+		<surveyTime>7410</surveyTime> <!-- 2001-06-03 --> 
+		<surveyTime>7411</surveyTime> <!-- 2001-06-08 --> 
+		<surveyTime>7412</surveyTime> <!-- 2001-06-13 --> 
+		<surveyTime>7413</surveyTime> <!-- 2001-06-18 --> 
+		<surveyTime>7414</surveyTime> <!-- 2001-06-23 --> 
+		<surveyTime>7415</surveyTime> <!-- 2001-06-28 --> 
+		<surveyTime>7416</surveyTime> <!-- 2001-07-03 --> 
+		<surveyTime>7417</surveyTime> <!-- 2001-07-08 --> 
+		<surveyTime>7418</surveyTime> <!-- 2001-07-13 --> 
+		<surveyTime>7419</surveyTime> <!-- 2001-07-18 --> 
+		<surveyTime>7420</surveyTime> <!-- 2001-07-23 --> 
+		<surveyTime>7421</surveyTime> <!-- 2001-07-28 --> 
+		<surveyTime>7422</surveyTime> <!-- 2001-08-02 --> 
+		<surveyTime>7423</surveyTime> <!-- 2001-08-07 --> 
+		<surveyTime>7424</surveyTime> <!-- 2001-08-12 --> 
+		<surveyTime>7425</surveyTime> <!-- 2001-08-17 --> 
+		<surveyTime>7426</surveyTime> <!-- 2001-08-22 --> 
+		<surveyTime>7427</surveyTime> <!-- 2001-08-27 --> 
+		<surveyTime>7428</surveyTime> <!-- 2001-09-01 --> 
+		<surveyTime>7429</surveyTime> <!-- 2001-09-06 --> 
+		<surveyTime>7430</surveyTime> <!-- 2001-09-11 --> 
+		<surveyTime>7431</surveyTime> <!-- 2001-09-16 --> 
+		<surveyTime>7432</surveyTime> <!-- 2001-09-21 --> 
+		<surveyTime>7433</surveyTime> <!-- 2001-09-26 --> 
+		<surveyTime>7434</surveyTime> <!-- 2001-10-01 --> 
+		<surveyTime>7435</surveyTime> <!-- 2001-10-06 --> 
+		<surveyTime>7436</surveyTime> <!-- 2001-10-11 --> 
+		<surveyTime>7437</surveyTime> <!-- 2001-10-16 --> 
+		<surveyTime>7438</surveyTime> <!-- 2001-10-21 --> 
+		<surveyTime>7439</surveyTime> <!-- 2001-10-26 --> 
+		<surveyTime>7440</surveyTime> <!-- 2001-10-31 --> 
+		<surveyTime>7441</surveyTime> <!-- 2001-11-05 --> 
+		<surveyTime>7442</surveyTime> <!-- 2001-11-10 --> 
+		<surveyTime>7443</surveyTime> <!-- 2001-11-15 --> 
+		<surveyTime>7444</surveyTime> <!-- 2001-11-20 --> 
+		<surveyTime>7445</surveyTime> <!-- 2001-11-25 --> 
+		<surveyTime>7446</surveyTime> <!-- 2001-11-30 --> 
+		<surveyTime>7447</surveyTime> <!-- 2001-12-05 --> 
+		<surveyTime>7448</surveyTime> <!-- 2001-12-10 --> 
+		<surveyTime>7449</surveyTime> <!-- 2001-12-15 --> 
+		<surveyTime>7450</surveyTime> <!-- 2001-12-20 --> 
+		<surveyTime>7451</surveyTime> <!-- 2001-12-25 --> 
+		<surveyTime>7452</surveyTime> <!-- 2001-12-30 --> 
+		<surveyTime>7453</surveyTime> <!-- 2002-01-04 --> 
+		<surveyTime>7454</surveyTime> <!-- 2002-01-09 --> 
+		<surveyTime>7455</surveyTime> <!-- 2002-01-14 --> 
+		<surveyTime>7456</surveyTime> <!-- 2002-01-19 --> 
+		<surveyTime>7457</surveyTime> <!-- 2002-01-24 --> 
+		<surveyTime>7458</surveyTime> <!-- 2002-01-29 --> 
+		<surveyTime>7459</surveyTime> <!-- 2002-02-03 --> 
+		<surveyTime>7460</surveyTime> <!-- 2002-02-08 --> 
+		<surveyTime>7461</surveyTime> <!-- 2002-02-13 --> 
+		<surveyTime>7462</surveyTime> <!-- 2002-02-18 --> 
+		<surveyTime>7463</surveyTime> <!-- 2002-02-23 --> 
+		<surveyTime>7464</surveyTime> <!-- 2002-02-28 --> 
+		<surveyTime>7465</surveyTime> <!-- 2002-03-05 --> 
+		<surveyTime>7466</surveyTime> <!-- 2002-03-10 --> 
+		<surveyTime>7467</surveyTime> <!-- 2002-03-15 --> 
+		<surveyTime>7468</surveyTime> <!-- 2002-03-20 --> 
+		<surveyTime>7469</surveyTime> <!-- 2002-03-25 --> 
+		<surveyTime>7470</surveyTime> <!-- 2002-03-30 --> 
+		<surveyTime>7471</surveyTime> <!-- 2002-04-04 --> 
+		<surveyTime>7472</surveyTime> <!-- 2002-04-09 --> 
+		<surveyTime>7473</surveyTime> <!-- 2002-04-14 --> 
+		<surveyTime>7474</surveyTime> <!-- 2002-04-19 --> 
+		<surveyTime>7475</surveyTime> <!-- 2002-04-24 --> 
+		<surveyTime>7476</surveyTime> <!-- 2002-04-29 --> 
+		<surveyTime>7477</surveyTime> <!-- 2002-05-04 --> 
+		<surveyTime>7478</surveyTime> <!-- 2002-05-09 --> 
+		<surveyTime>7479</surveyTime> <!-- 2002-05-14 --> 
+		<surveyTime>7480</surveyTime> <!-- 2002-05-19 --> 
+		<surveyTime>7481</surveyTime> <!-- 2002-05-24 --> 
+		<surveyTime>7482</surveyTime> <!-- 2002-05-29 --> 
+		<surveyTime>7483</surveyTime> <!-- 2002-06-03 --> 
+		<surveyTime>7484</surveyTime> <!-- 2002-06-08 --> 
+		<surveyTime>7485</surveyTime> <!-- 2002-06-13 --> 
+		<surveyTime>7486</surveyTime> <!-- 2002-06-18 --> 
+		<surveyTime>7487</surveyTime> <!-- 2002-06-23 --> 
+		<surveyTime>7488</surveyTime> <!-- 2002-06-28 --> 
+		<surveyTime>7489</surveyTime> <!-- 2002-07-03 --> 
+		<surveyTime>7490</surveyTime> <!-- 2002-07-08 --> 
+		<surveyTime>7491</surveyTime> <!-- 2002-07-13 --> 
+		<surveyTime>7492</surveyTime> <!-- 2002-07-18 --> 
+		<surveyTime>7493</surveyTime> <!-- 2002-07-23 --> 
+		<surveyTime>7494</surveyTime> <!-- 2002-07-28 --> 
+		<surveyTime>7495</surveyTime> <!-- 2002-08-02 --> 
+		<surveyTime>7496</surveyTime> <!-- 2002-08-07 --> 
+		<surveyTime>7497</surveyTime> <!-- 2002-08-12 --> 
+		<surveyTime>7498</surveyTime> <!-- 2002-08-17 --> 
+		<surveyTime>7499</surveyTime> <!-- 2002-08-22 --> 
+		<surveyTime>7500</surveyTime> <!-- 2002-08-27 --> 
+		<surveyTime>7501</surveyTime> <!-- 2002-09-01 --> 
+		<surveyTime>7502</surveyTime> <!-- 2002-09-06 --> 
+		<surveyTime>7503</surveyTime> <!-- 2002-09-11 --> 
+		<surveyTime>7504</surveyTime> <!-- 2002-09-16 --> 
+		<surveyTime>7505</surveyTime> <!-- 2002-09-21 --> 
+		<surveyTime>7506</surveyTime> <!-- 2002-09-26 --> 
+		<surveyTime>7507</surveyTime> <!-- 2002-10-01 --> 
+		<surveyTime>7508</surveyTime> <!-- 2002-10-06 --> 
+		<surveyTime>7509</surveyTime> <!-- 2002-10-11 --> 
+		<surveyTime>7510</surveyTime> <!-- 2002-10-16 --> 
+		<surveyTime>7511</surveyTime> <!-- 2002-10-21 --> 
+		<surveyTime>7512</surveyTime> <!-- 2002-10-26 --> 
+		<surveyTime>7513</surveyTime> <!-- 2002-10-31 --> 
+		<surveyTime>7514</surveyTime> <!-- 2002-11-05 --> 
+		<surveyTime>7515</surveyTime> <!-- 2002-11-10 --> 
+		<surveyTime>7516</surveyTime> <!-- 2002-11-15 --> 
+		<surveyTime>7517</surveyTime> <!-- 2002-11-20 --> 
+		<surveyTime>7518</surveyTime> <!-- 2002-11-25 --> 
+		<surveyTime>7519</surveyTime> <!-- 2002-11-30 --> 
+		<surveyTime>7520</surveyTime> <!-- 2002-12-05 --> 
+		<surveyTime>7521</surveyTime> <!-- 2002-12-10 --> 
+		<surveyTime>7522</surveyTime> <!-- 2002-12-15 --> 
+		<surveyTime>7523</surveyTime> <!-- 2002-12-20 --> 
+		<surveyTime>7524</surveyTime> <!-- 2002-12-25 --> 
+		<surveyTime>7525</surveyTime> <!-- 2002-12-30 --> 
+		<surveyTime>7526</surveyTime> <!-- 2003-01-04 --> 
+		<surveyTime>7527</surveyTime> <!-- 2003-01-09 --> 
+		<surveyTime>7528</surveyTime> <!-- 2003-01-14 --> 
+		<surveyTime>7529</surveyTime> <!-- 2003-01-19 --> 
+		<surveyTime>7530</surveyTime> <!-- 2003-01-24 --> 
+		<surveyTime>7531</surveyTime> <!-- 2003-01-29 --> 
+		<surveyTime>7532</surveyTime> <!-- 2003-02-03 --> 
+		<surveyTime>7533</surveyTime> <!-- 2003-02-08 --> 
+		<surveyTime>7534</surveyTime> <!-- 2003-02-13 --> 
+		<surveyTime>7535</surveyTime> <!-- 2003-02-18 --> 
+		<surveyTime>7536</surveyTime> <!-- 2003-02-23 --> 
+		<surveyTime>7537</surveyTime> <!-- 2003-02-28 --> 
+		<surveyTime>7538</surveyTime> <!-- 2003-03-05 --> 
+		<surveyTime>7539</surveyTime> <!-- 2003-03-10 --> 
+		<surveyTime>7540</surveyTime> <!-- 2003-03-15 --> 
+		<surveyTime>7541</surveyTime> <!-- 2003-03-20 --> 
+		<surveyTime>7542</surveyTime> <!-- 2003-03-25 --> 
+		<surveyTime>7543</surveyTime> <!-- 2003-03-30 --> 
+		<surveyTime>7544</surveyTime> <!-- 2003-04-04 --> 
+		<surveyTime>7545</surveyTime> <!-- 2003-04-09 --> 
+		<surveyTime>7546</surveyTime> <!-- 2003-04-14 --> 
+		<surveyTime>7547</surveyTime> <!-- 2003-04-19 --> 
+		<surveyTime>7548</surveyTime> <!-- 2003-04-24 --> 
+		<surveyTime>7549</surveyTime> <!-- 2003-04-29 --> 
+		<surveyTime>7550</surveyTime> <!-- 2003-05-04 --> 
+		<surveyTime>7551</surveyTime> <!-- 2003-05-09 --> 
+		<surveyTime>7552</surveyTime> <!-- 2003-05-14 --> 
+		<surveyTime>7553</surveyTime> <!-- 2003-05-19 --> 
+		<surveyTime>7554</surveyTime> <!-- 2003-05-24 --> 
+		<surveyTime>7555</surveyTime> <!-- 2003-05-29 --> 
+		<surveyTime>7556</surveyTime> <!-- 2003-06-03 --> 
+		<surveyTime>7557</surveyTime> <!-- 2003-06-08 --> 
+		<surveyTime>7558</surveyTime> <!-- 2003-06-13 --> 
+		<surveyTime>7559</surveyTime> <!-- 2003-06-18 --> 
+		<surveyTime>7560</surveyTime> <!-- 2003-06-23 --> 
+		<surveyTime>7561</surveyTime> <!-- 2003-06-28 --> 
+		<surveyTime>7562</surveyTime> <!-- 2003-07-03 --> 
+		<surveyTime>7563</surveyTime> <!-- 2003-07-08 --> 
+		<surveyTime>7564</surveyTime> <!-- 2003-07-13 --> 
+		<surveyTime>7565</surveyTime> <!-- 2003-07-18 --> 
+		<surveyTime>7566</surveyTime> <!-- 2003-07-23 --> 
+		<surveyTime>7567</surveyTime> <!-- 2003-07-28 --> 
+		<surveyTime>7568</surveyTime> <!-- 2003-08-02 --> 
+		<surveyTime>7569</surveyTime> <!-- 2003-08-07 --> 
+		<surveyTime>7570</surveyTime> <!-- 2003-08-12 --> 
+		<surveyTime>7571</surveyTime> <!-- 2003-08-17 --> 
+		<surveyTime>7572</surveyTime> <!-- 2003-08-22 --> 
+		<surveyTime>7573</surveyTime> <!-- 2003-08-27 --> 
+		<surveyTime>7574</surveyTime> <!-- 2003-09-01 --> 
+		<surveyTime>7575</surveyTime> <!-- 2003-09-06 --> 
+		<surveyTime>7576</surveyTime> <!-- 2003-09-11 --> 
+		<surveyTime>7577</surveyTime> <!-- 2003-09-16 --> 
+		<surveyTime>7578</surveyTime> <!-- 2003-09-21 --> 
+		<surveyTime>7579</surveyTime> <!-- 2003-09-26 --> 
+		<surveyTime>7580</surveyTime> <!-- 2003-10-01 --> 
+		<surveyTime>7581</surveyTime> <!-- 2003-10-06 --> 
+		<surveyTime>7582</surveyTime> <!-- 2003-10-11 --> 
+		<surveyTime>7583</surveyTime> <!-- 2003-10-16 --> 
+		<surveyTime>7584</surveyTime> <!-- 2003-10-21 --> 
+		<surveyTime>7585</surveyTime> <!-- 2003-10-26 --> 
+		<surveyTime>7586</surveyTime> <!-- 2003-10-31 --> 
+		<surveyTime>7587</surveyTime> <!-- 2003-11-05 --> 
+		<surveyTime>7588</surveyTime> <!-- 2003-11-10 --> 
+		<surveyTime>7589</surveyTime> <!-- 2003-11-15 --> 
+		<surveyTime>7590</surveyTime> <!-- 2003-11-20 --> 
+		<surveyTime>7591</surveyTime> <!-- 2003-11-25 --> 
+		<surveyTime>7592</surveyTime> <!-- 2003-11-30 --> 
+		<surveyTime>7593</surveyTime> <!-- 2003-12-05 --> 
+		<surveyTime>7594</surveyTime> <!-- 2003-12-10 --> 
+		<surveyTime>7595</surveyTime> <!-- 2003-12-15 --> 
+		<surveyTime>7596</surveyTime> <!-- 2003-12-20 --> 
+		<surveyTime>7597</surveyTime> <!-- 2003-12-25 --> 
+		<surveyTime>7598</surveyTime> <!-- 2003-12-30 --> 
+		<surveyTime>7599</surveyTime> <!-- 2004-01-04 --> 
+		<surveyTime>7600</surveyTime> <!-- 2004-01-09 --> 
+		<surveyTime>7601</surveyTime> <!-- 2004-01-14 --> 
+		<surveyTime>7602</surveyTime> <!-- 2004-01-19 --> 
+		<surveyTime>7603</surveyTime> <!-- 2004-01-24 --> 
+		<surveyTime>7604</surveyTime> <!-- 2004-01-29 --> 
+		<surveyTime>7605</surveyTime> <!-- 2004-02-03 --> 
+		<surveyTime>7606</surveyTime> <!-- 2004-02-08 --> 
+		<surveyTime>7607</surveyTime> <!-- 2004-02-13 --> 
+		<surveyTime>7608</surveyTime> <!-- 2004-02-18 --> 
+		<surveyTime>7609</surveyTime> <!-- 2004-02-23 --> 
+		<surveyTime>7610</surveyTime> <!-- 2004-02-28 --> 
+		<surveyTime>7611</surveyTime> <!-- 2004-03-04 --> 
+		<surveyTime>7612</surveyTime> <!-- 2004-03-09 --> 
+		<surveyTime>7613</surveyTime> <!-- 2004-03-14 --> 
+		<surveyTime>7614</surveyTime> <!-- 2004-03-19 --> 
+		<surveyTime>7615</surveyTime> <!-- 2004-03-24 --> 
+		<surveyTime>7616</surveyTime> <!-- 2004-03-29 --> 
+		<surveyTime>7617</surveyTime> <!-- 2004-04-03 --> 
+		<surveyTime>7618</surveyTime> <!-- 2004-04-08 --> 
+		<surveyTime>7619</surveyTime> <!-- 2004-04-13 --> 
+		<surveyTime>7620</surveyTime> <!-- 2004-04-18 --> 
+		<surveyTime>7621</surveyTime> <!-- 2004-04-23 --> 
+		<surveyTime>7622</surveyTime> <!-- 2004-04-28 --> 
+		<surveyTime>7623</surveyTime> <!-- 2004-05-03 --> 
+		<surveyTime>7624</surveyTime> <!-- 2004-05-08 --> 
+		<surveyTime>7625</surveyTime> <!-- 2004-05-13 --> 
+		<surveyTime>7626</surveyTime> <!-- 2004-05-18 --> 
+		<surveyTime>7627</surveyTime> <!-- 2004-05-23 --> 
+		<surveyTime>7628</surveyTime> <!-- 2004-05-28 --> 
+		<surveyTime>7629</surveyTime> <!-- 2004-06-02 --> 
+		<surveyTime>7630</surveyTime> <!-- 2004-06-07 --> 
+		<surveyTime>7631</surveyTime> <!-- 2004-06-12 --> 
+		<surveyTime>7632</surveyTime> <!-- 2004-06-17 --> 
+		<surveyTime>7633</surveyTime> <!-- 2004-06-22 --> 
+		<surveyTime>7634</surveyTime> <!-- 2004-06-27 --> 
+		<surveyTime>7635</surveyTime> <!-- 2004-07-02 --> 
+		<surveyTime>7636</surveyTime> <!-- 2004-07-07 --> 
+		<surveyTime>7637</surveyTime> <!-- 2004-07-12 --> 
+		<surveyTime>7638</surveyTime> <!-- 2004-07-17 --> 
+		<surveyTime>7639</surveyTime> <!-- 2004-07-22 --> 
+		<surveyTime>7640</surveyTime> <!-- 2004-07-27 --> 
+		<surveyTime>7641</surveyTime> <!-- 2004-08-01 --> 
+		<surveyTime>7642</surveyTime> <!-- 2004-08-06 --> 
+		<surveyTime>7643</surveyTime> <!-- 2004-08-11 --> 
+		<surveyTime>7644</surveyTime> <!-- 2004-08-16 --> 
+		<surveyTime>7645</surveyTime> <!-- 2004-08-21 --> 
+		<surveyTime>7646</surveyTime> <!-- 2004-08-26 --> 
+		<surveyTime>7647</surveyTime> <!-- 2004-08-31 --> 
+		<surveyTime>7648</surveyTime> <!-- 2004-09-05 --> 
+		<surveyTime>7649</surveyTime> <!-- 2004-09-10 --> 
+		<surveyTime>7650</surveyTime> <!-- 2004-09-15 --> 
+		<surveyTime>7651</surveyTime> <!-- 2004-09-20 --> 
+		<surveyTime>7652</surveyTime> <!-- 2004-09-25 --> 
+		<surveyTime>7653</surveyTime> <!-- 2004-09-30 --> 
+		<surveyTime>7654</surveyTime> <!-- 2004-10-05 --> 
+		<surveyTime>7655</surveyTime> <!-- 2004-10-10 --> 
+		<surveyTime>7656</surveyTime> <!-- 2004-10-15 --> 
+		<surveyTime>7657</surveyTime> <!-- 2004-10-20 --> 
+		<surveyTime>7658</surveyTime> <!-- 2004-10-25 --> 
+		<surveyTime>7659</surveyTime> <!-- 2004-10-30 --> 
+		<surveyTime>7660</surveyTime> <!-- 2004-11-04 --> 
+		<surveyTime>7661</surveyTime> <!-- 2004-11-09 --> 
+		<surveyTime>7662</surveyTime> <!-- 2004-11-14 --> 
+		<surveyTime>7663</surveyTime> <!-- 2004-11-19 --> 
+		<surveyTime>7664</surveyTime> <!-- 2004-11-24 --> 
+		<surveyTime>7665</surveyTime> <!-- 2004-11-29 --> 
+		<surveyTime>7666</surveyTime> <!-- 2004-12-04 --> 
+		<surveyTime>7667</surveyTime> <!-- 2004-12-09 --> 
+		<surveyTime>7668</surveyTime> <!-- 2004-12-14 --> 
+		<surveyTime>7669</surveyTime> <!-- 2004-12-19 --> 
+		<surveyTime>7670</surveyTime> <!-- 2004-12-24 --> 
+		<surveyTime>7671</surveyTime> <!-- 2004-12-29 --> 
+		<surveyTime>7672</surveyTime> <!-- 2005-01-03 --> 
+		<surveyTime>7673</surveyTime> <!-- 2005-01-08 --> 
+		<surveyTime>7674</surveyTime> <!-- 2005-01-13 --> 
+		<surveyTime>7675</surveyTime> <!-- 2005-01-18 --> 
+		<surveyTime>7676</surveyTime> <!-- 2005-01-23 --> 
+		<surveyTime>7677</surveyTime> <!-- 2005-01-28 --> 
+		<surveyTime>7678</surveyTime> <!-- 2005-02-02 --> 
+		<surveyTime>7679</surveyTime> <!-- 2005-02-07 --> 
+		<surveyTime>7680</surveyTime> <!-- 2005-02-12 --> 
+		<surveyTime>7681</surveyTime> <!-- 2005-02-17 --> 
+		<surveyTime>7682</surveyTime> <!-- 2005-02-22 --> 
+		<surveyTime>7683</surveyTime> <!-- 2005-02-27 --> 
+		<surveyTime>7684</surveyTime> <!-- 2005-03-04 --> 
+		<surveyTime>7685</surveyTime> <!-- 2005-03-09 --> 
+		<surveyTime>7686</surveyTime> <!-- 2005-03-14 --> 
+		<surveyTime>7687</surveyTime> <!-- 2005-03-19 --> 
+		<surveyTime>7688</surveyTime> <!-- 2005-03-24 --> 
+		<surveyTime>7689</surveyTime> <!-- 2005-03-29 --> 
+		<surveyTime>7690</surveyTime> <!-- 2005-04-03 --> 
+		<surveyTime>7691</surveyTime> <!-- 2005-04-08 --> 
+		<surveyTime>7692</surveyTime> <!-- 2005-04-13 --> 
+		<surveyTime>7693</surveyTime> <!-- 2005-04-18 --> 
+		<surveyTime>7694</surveyTime> <!-- 2005-04-23 --> 
+		<surveyTime>7695</surveyTime> <!-- 2005-04-28 --> 
+		<surveyTime>7696</surveyTime> <!-- 2005-05-03 --> 
+		<surveyTime>7697</surveyTime> <!-- 2005-05-08 --> 
+		<surveyTime>7698</surveyTime> <!-- 2005-05-13 --> 
+		<surveyTime>7699</surveyTime> <!-- 2005-05-18 --> 
+		<surveyTime>7700</surveyTime> <!-- 2005-05-23 --> 
+		<surveyTime>7701</surveyTime> <!-- 2005-05-28 --> 
+		<surveyTime>7702</surveyTime> <!-- 2005-06-02 --> 
+		<surveyTime>7703</surveyTime> <!-- 2005-06-07 --> 
+		<surveyTime>7704</surveyTime> <!-- 2005-06-12 --> 
+		<surveyTime>7705</surveyTime> <!-- 2005-06-17 --> 
+		<surveyTime>7706</surveyTime> <!-- 2005-06-22 --> 
+		<surveyTime>7707</surveyTime> <!-- 2005-06-27 --> 
+		<surveyTime>7708</surveyTime> <!-- 2005-07-02 --> 
+		<surveyTime>7709</surveyTime> <!-- 2005-07-07 --> 
+		<surveyTime>7710</surveyTime> <!-- 2005-07-12 --> 
+		<surveyTime>7711</surveyTime> <!-- 2005-07-17 --> 
+		<surveyTime>7712</surveyTime> <!-- 2005-07-22 --> 
+		<surveyTime>7713</surveyTime> <!-- 2005-07-27 --> 
+		<surveyTime>7714</surveyTime> <!-- 2005-08-01 --> 
+		<surveyTime>7715</surveyTime> <!-- 2005-08-06 --> 
+		<surveyTime>7716</surveyTime> <!-- 2005-08-11 --> 
+		<surveyTime>7717</surveyTime> <!-- 2005-08-16 --> 
+		<surveyTime>7718</surveyTime> <!-- 2005-08-21 --> 
+		<surveyTime>7719</surveyTime> <!-- 2005-08-26 --> 
+		<surveyTime>7720</surveyTime> <!-- 2005-08-31 --> 
+		<surveyTime>7721</surveyTime> <!-- 2005-09-05 --> 
+		<surveyTime>7722</surveyTime> <!-- 2005-09-10 --> 
+		<surveyTime>7723</surveyTime> <!-- 2005-09-15 --> 
+		<surveyTime>7724</surveyTime> <!-- 2005-09-20 --> 
+		<surveyTime>7725</surveyTime> <!-- 2005-09-25 --> 
+		<surveyTime>7726</surveyTime> <!-- 2005-09-30 --> 
+		<surveyTime>7727</surveyTime> <!-- 2005-10-05 --> 
+		<surveyTime>7728</surveyTime> <!-- 2005-10-10 --> 
+		<surveyTime>7729</surveyTime> <!-- 2005-10-15 --> 
+		<surveyTime>7730</surveyTime> <!-- 2005-10-20 --> 
+		<surveyTime>7731</surveyTime> <!-- 2005-10-25 --> 
+		<surveyTime>7732</surveyTime> <!-- 2005-10-30 --> 
+		<surveyTime>7733</surveyTime> <!-- 2005-11-04 --> 
+		<surveyTime>7734</surveyTime> <!-- 2005-11-09 --> 
+		<surveyTime>7735</surveyTime> <!-- 2005-11-14 --> 
+		<surveyTime>7736</surveyTime> <!-- 2005-11-19 --> 
+		<surveyTime>7737</surveyTime> <!-- 2005-11-24 --> 
+		<surveyTime>7738</surveyTime> <!-- 2005-11-29 --> 
+		<surveyTime>7739</surveyTime> <!-- 2005-12-04 --> 
+		<surveyTime>7740</surveyTime> <!-- 2005-12-09 --> 
+		<surveyTime>7741</surveyTime> <!-- 2005-12-14 --> 
+		<surveyTime>7742</surveyTime> <!-- 2005-12-19 --> 
+		<surveyTime>7743</surveyTime> <!-- 2005-12-24 --> 
+		<surveyTime>7744</surveyTime> <!-- 2005-12-29 --> 
+		<surveyTime>7745</surveyTime> <!-- 2006-01-03 --> 
+		<surveyTime>7746</surveyTime> <!-- 2006-01-08 --> 
+		<surveyTime>7747</surveyTime> <!-- 2006-01-13 --> 
+		<surveyTime>7748</surveyTime> <!-- 2006-01-18 --> 
+		<surveyTime>7749</surveyTime> <!-- 2006-01-23 --> 
+		<surveyTime>7750</surveyTime> <!-- 2006-01-28 --> 
+		<surveyTime>7751</surveyTime> <!-- 2006-02-02 --> 
+		<surveyTime>7752</surveyTime> <!-- 2006-02-07 --> 
+		<surveyTime>7753</surveyTime> <!-- 2006-02-12 --> 
+		<surveyTime>7754</surveyTime> <!-- 2006-02-17 --> 
+		<surveyTime>7755</surveyTime> <!-- 2006-02-22 --> 
+		<surveyTime>7756</surveyTime> <!-- 2006-02-27 --> 
+		<surveyTime>7757</surveyTime> <!-- 2006-03-04 --> 
+		<surveyTime>7758</surveyTime> <!-- 2006-03-09 --> 
+		<surveyTime>7759</surveyTime> <!-- 2006-03-14 --> 
+		<surveyTime>7760</surveyTime> <!-- 2006-03-19 --> 
+		<surveyTime>7761</surveyTime> <!-- 2006-03-24 --> 
+		<surveyTime>7762</surveyTime> <!-- 2006-03-29 --> 
+		<surveyTime>7763</surveyTime> <!-- 2006-04-03 --> 
+		<surveyTime>7764</surveyTime> <!-- 2006-04-08 --> 
+		<surveyTime>7765</surveyTime> <!-- 2006-04-13 --> 
+		<surveyTime>7766</surveyTime> <!-- 2006-04-18 --> 
+		<surveyTime>7767</surveyTime> <!-- 2006-04-23 --> 
+		<surveyTime>7768</surveyTime> <!-- 2006-04-28 --> 
+		<surveyTime>7769</surveyTime> <!-- 2006-05-03 --> 
+		<surveyTime>7770</surveyTime> <!-- 2006-05-08 --> 
+		<surveyTime>7771</surveyTime> <!-- 2006-05-13 --> 
+		<surveyTime>7772</surveyTime> <!-- 2006-05-18 --> 
+		<surveyTime>7773</surveyTime> <!-- 2006-05-23 --> 
+		<surveyTime>7774</surveyTime> <!-- 2006-05-28 --> 
+		<surveyTime>7775</surveyTime> <!-- 2006-06-02 --> 
+		<surveyTime>7776</surveyTime> <!-- 2006-06-07 --> 
+		<surveyTime>7777</surveyTime> <!-- 2006-06-12 --> 
+		<surveyTime>7778</surveyTime> <!-- 2006-06-17 --> 
+		<surveyTime>7779</surveyTime> <!-- 2006-06-22 --> 
+		<surveyTime>7780</surveyTime> <!-- 2006-06-27 --> 
+		<surveyTime>7781</surveyTime> <!-- 2006-07-02 --> 
+		<surveyTime>7782</surveyTime> <!-- 2006-07-07 --> 
+		<surveyTime>7783</surveyTime> <!-- 2006-07-12 --> 
+		<surveyTime>7784</surveyTime> <!-- 2006-07-17 --> 
+		<surveyTime>7785</surveyTime> <!-- 2006-07-22 --> 
+		<surveyTime>7786</surveyTime> <!-- 2006-07-27 --> 
+		<surveyTime>7787</surveyTime> <!-- 2006-08-01 --> 
+		<surveyTime>7788</surveyTime> <!-- 2006-08-06 --> 
+		<surveyTime>7789</surveyTime> <!-- 2006-08-11 --> 
+		<surveyTime>7790</surveyTime> <!-- 2006-08-16 --> 
+		<surveyTime>7791</surveyTime> <!-- 2006-08-21 --> 
+		<surveyTime>7792</surveyTime> <!-- 2006-08-26 --> 
+		<surveyTime>7793</surveyTime> <!-- 2006-08-31 --> 
+		<surveyTime>7794</surveyTime> <!-- 2006-09-05 --> 
+		<surveyTime>7795</surveyTime> <!-- 2006-09-10 --> 
+		<surveyTime>7796</surveyTime> <!-- 2006-09-15 --> 
+		<surveyTime>7797</surveyTime> <!-- 2006-09-20 --> 
+		<surveyTime>7798</surveyTime> <!-- 2006-09-25 --> 
+		<surveyTime>7799</surveyTime> <!-- 2006-09-30 --> 
+		<surveyTime>7800</surveyTime> <!-- 2006-10-05 --> 
+		<surveyTime>7801</surveyTime> <!-- 2006-10-10 --> 
+		<surveyTime>7802</surveyTime> <!-- 2006-10-15 --> 
+		<surveyTime>7803</surveyTime> <!-- 2006-10-20 --> 
+		<surveyTime>7804</surveyTime> <!-- 2006-10-25 --> 
+		<surveyTime>7805</surveyTime> <!-- 2006-10-30 --> 
+		<surveyTime>7806</surveyTime> <!-- 2006-11-04 --> 
+		<surveyTime>7807</surveyTime> <!-- 2006-11-09 --> 
+		<surveyTime>7808</surveyTime> <!-- 2006-11-14 --> 
+		<surveyTime>7809</surveyTime> <!-- 2006-11-19 --> 
+		<surveyTime>7810</surveyTime> <!-- 2006-11-24 --> 
+		<surveyTime>7811</surveyTime> <!-- 2006-11-29 --> 
+		<surveyTime>7812</surveyTime> <!-- 2006-12-04 --> 
+		<surveyTime>7813</surveyTime> <!-- 2006-12-09 --> 
+		<surveyTime>7814</surveyTime> <!-- 2006-12-14 --> 
+		<surveyTime>7815</surveyTime> <!-- 2006-12-19 --> 
+		<surveyTime>7816</surveyTime> <!-- 2006-12-24 --> 
+		<surveyTime>7817</surveyTime> <!-- 2006-12-29 --> 
+	</surveys>
+    <ageGroup lowerbound="0">
+      <group upperbound="1"/>
+      <group upperbound="2"/>
+      <group upperbound="5"/>
+      <group upperbound="10"/>
+      <group upperbound="100"/>
+    </ageGroup>
+  </monitoring>
+	<interventions name="All interventions">  <!--2.254795-->
+		<vectorPop>
+			<intervention name="Larviciding_alltime">
+				<!-- L unit=years, half decay-->	
+				<description>
+					<anopheles mosquito="gambiae">
+						<emergenceReduction initial="@LARVcov@">  
+							<decay L="2.254795" function="step" />  <!-- 100% impact for 2.254795 years-->						
+						</emergenceReduction>
+						<seekingDeathRateIncrease initial="0.0">
+							<decay L="0" function="step"/>
+						</seekingDeathRateIncrease>
+						<probDeathOvipositing initial="0.0"> 
+							<decay L="0" function="step"/>
+						</probDeathOvipositing>
+					</anopheles>
+				</description>
+				<timed> <!-- Larviciding all -->
+					<deploy time="7485"/>  <!--2002-06-13-->				
+				</timed>
+			</intervention>
+			<intervention name="Larviciding_dry_JanFeb">
+				<!-- L unit=years, half decay-->	
+				<description>
+					<anopheles mosquito="gambiae">
+						<emergenceReduction initial="@LARVcov_dry@">  
+							<decay L="0.1643836" function="step" />  <!-- 100% impact for 2 months-->						
+						</emergenceReduction>
+						<seekingDeathRateIncrease initial="0.0">
+							<decay L="0" function="step"/>
+						</seekingDeathRateIncrease>
+						<probDeathOvipositing initial="0.0"> 
+							<decay L="0" function="step"/>
+						</probDeathOvipositing>
+					</anopheles>
+				</description>
+				<timed> <!-- Larviciding all -->
+					<deploy time="7485"/>  <!--2002-06-13-->				
+				</timed>
+			</intervention>
+			<intervention name="Larviciding_dry_JulToSep">
+				<!-- L unit=years, half decay-->	
+				<description>
+					<anopheles mosquito="gambiae">
+						<emergenceReduction initial="@LARVcov_dry@">  
+							<decay L="0.2465753" function="step" />  <!-- 100% impact for 3 months-->						
+						</emergenceReduction>
+						<seekingDeathRateIncrease initial="0.0">
+							<decay L="0" function="step"/>
+						</seekingDeathRateIncrease>
+						<probDeathOvipositing initial="0.0"> 
+							<decay L="0" function="step"/>
+						</probDeathOvipositing>
+					</anopheles>
+				</description>
+				<timed> <!-- Larviciding all -->
+					<deploy time="7489"/>  			
+					<deploy time="7562"/>  
+					<deploy time="7635"/>  
+					</timed>
+			</intervention>
+			<intervention name="Larviciding_rain_marchToMay">
+				<!-- L unit=years, half decay-->	
+				<description>
+					<anopheles mosquito="gambiae">
+						<emergenceReduction initial="@LARVcov_rain@">  
+							<decay L="0.3287671" function="step" />  <!-- 100% impact for 4 months-->						
+						</emergenceReduction>
+						<seekingDeathRateIncrease initial="0.0">
+							<decay L="0" function="step"/>
+						</seekingDeathRateIncrease>
+						<probDeathOvipositing initial="0.0"> 
+							<decay L="0" function="step"/>
+						</probDeathOvipositing>
+					</anopheles>
+				</description>
+				<timed> <!-- Larviciding all -->
+				<deploy time="7538"/> <!-- 2003-03-05 --> 
+				<deploy time="7611"/>  <!--2004-03-04-->			
+				</timed>
+			</intervention>
+			<intervention name="Larviciding_rain_OctToDec">
+				<!-- L unit=years, half decay-->	
+				<description>
+					<anopheles mosquito="gambiae">
+						<emergenceReduction initial="@LARVcov_rain@">  
+							<decay L="0.3287671" function="step" />  <!-- 100% impact for 4 months-->						
+						</emergenceReduction>
+						<seekingDeathRateIncrease initial="0.0">
+							<decay L="0" function="step"/>
+						</seekingDeathRateIncrease>
+						<probDeathOvipositing initial="0.0"> 
+							<decay L="0" function="step"/>
+						</probDeathOvipositing>
+					</anopheles>
+				</description>
+				<timed> <!-- Larviciding all (Bs or Bti) -->
+					<deploy time="7507"/>  <!--2002-10-01-->	
+						<deploy time="7580"/> <!-- 2003-10-01 --> 
+				</timed>
+			</intervention>
+		</vectorPop>		   
+  </interventions>
+  <healthSystem>
+	  <ImmediateOutcomes name="Tanzania ACT">
+		  <drugRegimen firstLine="ACT" inpatient="QN" secondLine="ACT"/>
+		  <initialACR>
+			  <ACT value="1"/>
+			  <QN value="1"/>
+			  <selfTreatment value="1"/>
+		  </initialACR>
+		  <compliance>
+			  <ACT value="1"/>
+			  <QN value="1"/>
+			  <selfTreatment value="1"/>
+		  </compliance>
+		  <nonCompliersEffective>
+			  <ACT value="0"/>
+			  <selfTreatment value="0"/>
+		  </nonCompliersEffective>
+		  <treatmentActions>
+			  <ACT name="clear blood-stage infections">
+				  <clearInfections stage="blood" timesteps="1"/>
+			  </ACT>
+			  <QN name="clear blood-stage infections">
+				  <clearInfections stage="blood" timesteps="1"/>
+			  </QN>
+		  </treatmentActions>
+		  <pSeekOfficialCareUncomplicated1 value="0"/> 
+		  <pSelfTreatUncomplicated value="0.01821375"/>
+		  <pSeekOfficialCareUncomplicated2 value="0"/>
+		  <pSeekOfficialCareSevere value="0.48"/>
+	  </ImmediateOutcomes>
+    <CFR>
+      <group lowerbound="0" value="0.09189"/>
+      <group lowerbound="0.25" value="0.0810811"/>
+      <group lowerbound="0.75" value="0.0648649"/>
+      <group lowerbound="1.5" value="0.0689189"/>
+      <group lowerbound="2.5" value="0.0675676"/>
+      <group lowerbound="3.5" value="0.0297297"/>
+      <group lowerbound="4.5" value="0.0459459"/>
+      <group lowerbound="7.5" value="0.0945946"/>
+      <group lowerbound="12.5" value="0.1243243"/>
+      <group lowerbound="15" value="0.1378378"/>
+    </CFR>
+    <pSequelaeInpatient interpolation="none">
+      <group lowerbound="0.0" value="0.0132"/>
+      <group lowerbound="5.0" value="0.005"/>
+    </pSequelaeInpatient>
+  </healthSystem>
+  <entomology mode="dynamic" name="Mbita" scaledAnnualEIR="10">
+    <vector>
+		<anopheles mosquito="gambiae" propInfected="0.078" propInfectious="0.021">
+			<seasonality annualEIR="1" input="EIR">
+				<monthlyValues smoothing="fourier">
+					<value>238</value>
+					<value>100</value>
+					<value>283</value>
+					<value>500</value>
+					<value>471</value>
+					<value>240</value>
+					<value>131</value>
+					<value>126</value>
+					<value>164</value>
+					<value>145</value>
+					<value>316</value>
+					<value>319</value>
+				</monthlyValues>
+			</seasonality>
+			<mosq minInfectedThreshold="0.001">
+				<mosqRestDuration value="3"/>
+				<extrinsicIncubationPeriod value="11"/>
+				<mosqLaidEggsSameDayProportion value="0.313"/>
+				<mosqSeekingDuration value="0.33"/>
+				<mosqSurvivalFeedingCycleProbability value="0.623"/>
+				<availabilityVariance value="0"/>
+				<mosqProbBiting mean="0.95" variance="0"/>
+				<mosqProbFindRestSite mean="0.95" variance="0"/>
+				<mosqProbResting mean="0.99" variance="0"/>
+				<mosqProbOvipositing value="0.88"/>
+				<mosqHumanBloodIndex value="0.939"/> <!-- Chitnis et al Table 5:(gambiae ss) Parameter values for different Anopheline mosquito species in the	absence of interventions with a human population of 50 000 and the presence
+				of animals-->
+			</mosq>
+			<simpleMPD>
+				<developmentDuration value="11"/>
+				<developmentSurvival value="0.6"/>
+				<femaleEggsLaidByOviposit value="99"/>
+			</simpleMPD>
+			<nonHumanHosts name="unprotectedAnimals">
+				<mosqRelativeEntoAvailability value="1.0"/>
+				<mosqProbBiting value="0.95"/>
+				<mosqProbFindRestSite value="0.95"/>
+				<mosqProbResting value="0.99"/>
+			</nonHumanHosts>
+		</anopheles>
+	 <nonHumanHosts name="unprotectedAnimals" number="1.0"/>
+    </vector>
+  </entomology>
+  <model>
+    <ModelOptions>
+      <option name="VECTOR_SIMPLE_MPD_MODEL" value="true"/> 
+      <option name="LOGNORMAL_MASS_ACTION" value="true"/>
+	  <option name="MAX_DENS_CORRECTION" value="true"/>
+	  <option name="INNATE_MAX_DENS" value="false"/>
+	  <option name="INDIRECT_MORTALITY_FIX" value="false"/>
+	</ModelOptions>
+    <clinical healthSystemMemory="6"/>
+    <human>
+      <availabilityToMosquitoes>
+        <group lowerbound="0.0" value="0.225940909648"/>
+        <group lowerbound="1.0" value="0.286173633441"/>
+        <group lowerbound="2.0" value="0.336898395722"/>
+        <group lowerbound="3.0" value="0.370989854675"/>
+        <group lowerbound="4.0" value="0.403114915112"/>
+        <group lowerbound="5.0" value="0.442585112522"/>
+        <group lowerbound="6.0" value="0.473839351511"/>
+        <group lowerbound="7.0" value="0.512630464378"/>
+        <group lowerbound="8.0" value="0.54487872702"/>
+        <group lowerbound="9.0" value="0.581527755812"/>
+        <group lowerbound="10.0" value="0.630257580698"/>
+        <group lowerbound="11.0" value="0.663063362714"/>
+        <group lowerbound="12.0" value="0.702417432755"/>
+        <group lowerbound="13.0" value="0.734605377277"/>
+        <group lowerbound="14.0" value="0.788908765653"/>
+        <group lowerbound="15.0" value="0.839587932303"/>
+        <group lowerbound="20.0" value="1.0"/>
+      </availabilityToMosquitoes>
+    </human>
+    <parameters interval="5" iseed="4" latentp="3">
+      <parameter include="false" name="'-ln(1-Sinf)'" number="1" value="0.050736"/>
+      <parameter include="false" name="Estar" number="2" value="0.03247"/>
+      <parameter include="false" name="Simm" number="3" value="0.138161050830301"/>
+      <parameter include="false" name="Xstar_p" number="4" value="1514.385853233699891"/>
+      <parameter include="false" name="gamma_p" number="5" value="2.03692533424484"/>
+      <parameter include="false" name="sigma2i" number="6" value="10.173598698525799"/>
+      <parameter include="false" name="CumulativeYstar" number="7" value="35158523.31132510304451"/>
+      <parameter include="false" name="CumulativeHstar" number="8" value="97.334652723897705"/>
+      <parameter include="false" name="'-ln(1-alpha_m)'" number="9" value="2.33031045876193"/>
+      <parameter include="false" name="decay_m" number="10" value="2.53106547375805"/>
+      <parameter include="false" name="sigma2_0" number="11" value="0.655747311168152"/>
+      <parameter include="false" name="Xstar_v" number="12" value="0.916181104713054"/>
+      <parameter include="false" name="Ystar2" number="13" value="6502.26335600001039"/>
+      <parameter include="false" name="alpha" number="14" value="142601.912520000012591"/>
+      <parameter include="false" name="Density bias (non Garki)" number="15" value="0.177378570987455"/>
+      <parameter include="false" name="        sigma2        " number="16" value="0.05"/>
+      <parameter include="false" name="log oddsr CF community" number="17" value="0.736202"/>
+      <parameter include="false" name="Indirect risk cofactor" number="18" value="0.018777338"/>
+      <parameter include="false" name="Non-malaria infant mortality" number="19" value="49.539046599999999"/>
+      <parameter include="false" name="Density bias (Garki)" number="20" value="4.79610772546704"/>
+      <parameter include="false" name="Severe Malaria Threshhold" number="21" value="784455.599999999976717"/>
+      <parameter include="false" name="Immunity Penalty" number="22" value="1"/>
+      <parameter include="false" name="Immune effector decay" number="23" value="0"/>
+      <parameter include="false" name="comorbidity intercept" number="24" value="0.0968"/>
+      <parameter include="false" name="Ystar half life" number="25" value="0.275437402"/>
+      <parameter include="false" name="Ystar1" number="26" value="0.596539864"/>
+      <parameter include="false" name="Asexual immunity decay" number="27" value="0"/>
+      <parameter include="false" name="Ystar0" number="28" value="296.302437899999973"/>
+      <parameter include="false" name="Idete multiplier" number="29" value="2.797523626"/>
+      <parameter include="false" name="critical age for comorbidity" number="30" value="0.117383"/>
+    </parameters>
+  </model>
+</om:scenario>

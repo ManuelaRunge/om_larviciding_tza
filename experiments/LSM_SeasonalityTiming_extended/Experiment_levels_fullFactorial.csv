@@ -1,0 +1,15 @@
+levels;models;EIR;Mth_Duration_TotalDur;LARVcov;SeasonID;developmentDuration;developmentSurvival;femaleEggsLaidByOviposit;Seeds
+level 1;base;3;1_4mth_2yr;0;SeasonID_0;11;0.6;99;3
+level 2;;10;2_4mth_2yr;0.2;SeasonID_1-1;;;;
+level 3;;90;3_4mth_2yr;0.4;SeasonID_2-1;;;;
+level 4;;;4_4mth_2yr;0.6;SeasonID_1-2;;;;
+level 5;;;5_4mth_2yr;0.8;SeasonID_2-2;;;;
+level 6;;;6_4mth_2yr;1;;;;;
+level 7;;;7_4mth_2yr;;;;;;
+level 8;;;8_4mth_2yr;;;;;;
+level 9;;;9_4mth_2yr;;;;;;
+level 10;;;10_4mth_2yr;;;;;;
+level 11;;;11_4mth_2yr;;;;;;
+level 12;;;12_4mth_2yr;;;;;;
+level 13;;;1_12mth_2yr;;;;;;
+level 14;;;1_24mth_2yr;;;;;;

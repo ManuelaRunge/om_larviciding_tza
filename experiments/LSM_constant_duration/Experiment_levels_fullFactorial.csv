@@ -1,0 +1,13 @@
+levels;models;EIR;LSMDeployTime;LARVcov;Seasonality_grp;developmentDuration;developmentSurvival;femaleEggsLaidByOviposit;Seeds
+level 1;base;3;LSM_endOfdryPartWet_1yrs_1mth;0;constant;11;0.6;99;3
+level 2;;10;LSM_endOfdryPartWet_1yrs_2mth;0.1;;5;0.1;50;
+level 3;;90;LSM_endOfdryPartWet_1yrs_3mth;0.2;;;0.9;200;
+level 4;;;LSM_endOfdryPartWet_1yrs_4mth;0.3;;;;;
+level 5;;;LSM_endOfdryPartWet_1yrs_12mth;0.4;;;;;
+level 6;;;LSM_endOfdryPartWet_1yrs_24mth;0.5;;;;;
+level 7;;;LSM_endOfdryPartWet_1yrs_36mth;0.6;;;;;
+level 8;;;;0.7;;;;;
+level 9;;;;0.8;;;;;
+level 10;;;;0.9;;;;;
+level 11;;;;1;;;;;
+level 12;;;;;;;;;
